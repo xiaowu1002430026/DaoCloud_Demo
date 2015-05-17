@@ -23,6 +23,6 @@ script:
 notify:
   email:
     recipients:
-      - sample@daocloud.io
+      - frank.yu@daocloud.io
     on_success: on
     on_failure: off
