@@ -10,7 +10,7 @@ def hello_world():
   storage = Storage()
   storage.populate()
   score = storage.score()
-  return "Hello world & Docker Run, yes Docker Run Test  Demo Demo Demo %d!" % score
+  return "Hello world & Docker Run %d!" % score
 
 class Storage():
   def __init__(self):
